@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预测显示</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename= impath ,_t=val1) }}" width="200" height="200" alt="图片显示识别"/>
+    <p>图片中文字为:{{predictval}}</p>
+</body>
+</html>
